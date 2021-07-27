@@ -25,14 +25,16 @@ body {
   height: 5px !important;
 }
 
+.item-img, .item-image {
+  width: 100%;
+}
+
 .item-img {
   background: url(../images/landing-01.jpg) no-repeat;
-  width: 1007px;
   height: 447.55px;
 }
 .item-image {
   background: url(../images/landing-02.jpg) no-repeat;
-  width: 1007px;
   height: 447.55px;
 }
 .carousel-item h3 {
