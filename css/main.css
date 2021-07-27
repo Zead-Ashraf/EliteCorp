@@ -1,0 +1,64 @@
+body {
+  margin-bottom: 100000px;
+  padding-top: 55px;
+}
+
+/* Start Navbar */
+.navbar-brand span {
+  color: #ec1c23;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+/* End Navbar */
+/* Start Landing */
+.carouse-slide {
+  cursor: pointer;
+  height: 5px !important;
+}
+
+.item-img {
+  background: url(../images/landing-01.jpg) no-repeat;
+  width: 1007px;
+  height: 447.55px;
+}
+.item-image {
+  background: url(../images/landing-02.jpg) no-repeat;
+  width: 1007px;
+  height: 447.55px;
+}
+.carousel-item h3 {
+  color: #eee;
+  margin-top: 30px;
+  position: absolute;
+  margin-left: 20px;
+  font-size: 28px;
+}
+.carousel-item p {
+  color: #eee;
+  margin-top: 70px;
+  position: absolute;
+  margin-left: 20px;
+  font-size: 22px;
+}
+@media (max-width: 480px) {
+  .carousel-item h3 {
+    text-align: center;
+  }
+  .carousel-item p {
+    display: none;
+  }
+}
+
+/* End Landing */
+/* Start About */
+
+/* End About */
